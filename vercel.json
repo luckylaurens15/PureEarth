@@ -18,6 +18,10 @@
             "src": "/js/(.*)",
             "dest": "public/js/"
         },
+        {
+            "src": "/img/(.*)",
+            "dest": "public/img/"
+        },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
